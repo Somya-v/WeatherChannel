@@ -45,7 +45,7 @@ const getInfo= async(event)=>{
         datahide.classList.remove('data_hide');
     }
         catch{
-            city_name.innerText=" Please write the name before search";
+            city_name.innerText=" Please enter the correct city name";
             datahide.classList.add('data_hide');
         }
     }
